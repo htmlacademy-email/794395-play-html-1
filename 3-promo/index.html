@@ -72,15 +72,30 @@
         width: 100% !important;
       }
 
-      .content {
+      .content table, 
+      .content  {
         width: 100% !important;
-        max-width: 600px !important;
+        max-width: 600px !important
+      }
+
+      .logo {
+        padding-left: 0!important;
+        padding-right: 0!important;
       }
 
       .logo--up,
       .logo--down {
         display: block !important;
         padding-left: 0px !important;
+      }
+
+      .content__mobile {
+        padding-left: 16px!important;
+        padding-right: 16px!important;
+      }
+
+      table .non-adaptive {
+        width: auto !important;
       }
 
     }
@@ -105,7 +120,7 @@
           <table class="content" bgcolor="#f6f6f6" align="center" cellpadding="0" cellspacing="0" border="0"
             style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;border-spacing: 0px;">
             <tr>
-              <td style="background-color: #f6f6f6; width: 568px;">
+              <td class="content__mobile" style="background-color: #f6f6f6; width: 568px; padding-left: 16px; padding-right: 16px;">
                 <!-- лого + соцсети -->
                 <table  cellpadding="0" cellspacing="0" align="center"
                 style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;border-spacing: 0px;">
@@ -114,8 +129,8 @@
                     <table bgcolor="#f6f6f6" align="center" cellpadding="0" cellspacing="0"
                       style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;border-spacing: 0px;">
                       <tr>
-                        <td align="center" 
-                          style="Margin:0;padding-top:52px;padding-bottom:36px;padding-left:32px;padding-right:32px; font-size: 0; direction: rtl">
+                        <td align="center" class="logo"
+                          style="Margin:0;padding-top:52px;padding-bottom:36px; font-size: 0; direction: rtl">
                           <!--[if mso]><table style="width:568px;" cellpadding="0" cellspacing="0"><tr><td style="width:364px;" valign="top" dir=”ltr”><![endif]-->
                             <div class="logo--up" align="center" style="display:inline-block; max-width:250px; padding-left: 146px; vertical-align:top;width: 100%; direction: ltr">
                                 <table  cellspacing="0" cellpadding="0"
@@ -179,7 +194,7 @@
                                                             alt="telegram" width="24" height="24"></a>
                                                       </td>
                                                       <td align="center" valign="top"
-                                                        style="padding:0;Margin:0;padding-right:8px;">
+                                                        style="padding:0;Margin:0;">
                                                         <a href=""><img
                                                             style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic"
                                                             src="https://karchevskaya.usite.pro/email_images/img_3/vk.png"
@@ -223,7 +238,7 @@
                 <table width="100%" cellspacing="0" cellpadding="0" border="0"
                   style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;border-spacing: 0px;">
                   <tr>
-                    <td align="center" style="padding:0; padding-left: 16px; padding-right: 16px; Margin:0;">
+                    <td align="center" class="" style="padding:0; Margin:0;">
                       <table class="content" bgcolor="#ffffff" align="center" cellpadding="0" cellspacing="0" border="0"
                         style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;border-spacing: 0px;width: 568px;background-color: #FFFFFF;">
                         <tr>
@@ -1099,7 +1114,7 @@
                                     </tr>
                                     <tr>
                                       <td align="left" style="padding:0;Margin:0;font-size:0;">
-                                        <table cellspacing="0" cellpadding="0" border="0"
+                                        <table class="non-adaptive" cellspacing="0" cellpadding="0" border="0"
                                           style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;border-spacing: 0px;">
                                           <tr>
                                             <td style="padding:0;Margin:0;padding-right: 8px;">
